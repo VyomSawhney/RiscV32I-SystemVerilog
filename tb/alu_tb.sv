@@ -37,7 +37,7 @@ module alu_tb;
             pass_count++;
         end
     endtask
-    
+
     initial begin
         int N = 1000;
         for (int i = 0; i < N; i++) begin
